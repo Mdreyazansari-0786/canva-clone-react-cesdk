@@ -5,7 +5,7 @@ import * as unsplash from 'unsplash-js';
 // Read more about that here: https://github.com/unsplash/unsplash-js#creating-an-instance
 // See unsplashProxyFunction.ts.example for an implementation example for such a proxy running on google cloud functions.
 
-let UNSPLASH_API_URL = ''; // INSERT YOUR UNSPLASH PROXY URL HERE
+let UNSPLASH_API_URL = 'https://api.unsplash.com/search/photos'; // INSERT YOUR UNSPLASH PROXY URL HERE
 
 const unsplashApi = unsplash.createApi({
   apiUrl: UNSPLASH_API_URL

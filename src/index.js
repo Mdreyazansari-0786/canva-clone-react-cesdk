@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-// Codesandbox does not properly parse @imports so we import them here
 import './styles/root.css';
 import './styles/fonts.css';
 import './styles/typography.css';
